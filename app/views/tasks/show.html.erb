@@ -1,1 +1,8 @@
 <h1>Show</h1>
+<h2>Title:</h2>
+  <%= @task.title %>
+<h3>Details:</h3>
+  <%= @task.details %>
+
+<%= link_to 'edit this task', tasks_edit_path %>
+<%= link_to 'see all tasks', tasks_path %>
